@@ -16,8 +16,8 @@ class Hero:
         else:
             return False
             
-#superman = Hero("Captain America", 100, 50)
-#superman.introduce()
+superman = Hero("Captain America", 100, 50)
+superman.introduce()
 
 shieldhero = Hero("Naofumi", 70, 100)
 print(shieldhero.isadult())

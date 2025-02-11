@@ -43,7 +43,7 @@ class Archer(Heroes):
             print("Неудачная атака")
             
 gamehero = Archer("Fishl", 80, 0, 0)
-gamehero.action()
+gamehero.rest()
 gamehero.status()
 gamehero.attack()
     
